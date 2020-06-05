@@ -1,9 +1,9 @@
 # greedy_nms
-## Implementación tradicional de algoritmo greedy Non Max Suppression
+## Implementación tradicional de algoritmo greedy Non-Max Suppression
 El archivo nms.py, contiene tanto la imlementación de la función encargada de realizar NMS 'nonMaxSuppression()', como de otras funciones auxiliares que fueron utilizadas para poder visualizar el funcionameinto de tal algoritmo sobre una imagen 'test.jpg', y un conjunto de detecciones realizadas sobre la misma.
 
 ### Modo de uso
-El script, ya cuenta con la implemetada de la funcion 'test()', la cual despliga una ventana con la imagen y todas las detecciones realizadas sobre la misma, tanto antes, como despues de ejecutarse el algoritmo de NMS, automaticamente. A continuación se describe en detalle su forma de uso.
+El script, ya cuenta con la implemetada de la funcion 'test()', la cual despliga una ventana con la imagen y todas las detecciones realizadas sobre la misma automaticamente, tanto antes como despues de ejecutarse el algoritmo de NMS. A continuación se describe en detalle su forma de uso.
 ```
 usage: python nms.py [-h] [-conf CONF_THRESHOLD] [-iou IOU_THRESHOLD]
 
